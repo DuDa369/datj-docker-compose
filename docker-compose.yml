@@ -17,7 +17,7 @@ services:
       - "8080:8080"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__DefaultConnection=Server=tcp:datj.database.windows.net,1433;Initial Catalog=DATJ;Persist Security Info=False;User ID=germanypeach;Password=GerPeach@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+      - ConnectionStrings__DefaultConnection=Server=tcp:datj.database.windows.net,1433;Initial Catalog=DATJ1;Persist Security Info=False;User ID=germanypeach;Password=GerPeach@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 
   frontend:
     image: ducdao369/summer2024swp391_sap1804_group01-frontend:latest
