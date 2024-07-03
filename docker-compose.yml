@@ -24,8 +24,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - REACT_APP_API_URL=http://localhost
-      - VITE_SERVER_URL=http://localhost
+      - VITE_SERVER_URL=http://172.188.99.86
       - NODE_ENV=development
       - CHOKIDAR_USEPOLLING=true
     depends_on:
