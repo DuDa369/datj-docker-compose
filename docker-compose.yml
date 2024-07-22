@@ -18,7 +18,8 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DefaultConnection=Server=tcp:datj.database.windows.net,1433;Initial Catalog=DATJ1;Persist Security Info=False;User ID=germanypeach;Password=GerPeach@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30
-      - ClientUrl=http://datj.southeastasia.cloudapp.azure.com/
+      - ClientUrl=http://datj.southeastasia.cloudapp.azure.com
+      - VnPay__ReturnUrl=https://172.188.99.86:8080/api/payment/momo-return
   frontend:
     image: ducdao369/summer2024swp391_sap1804_group01-frontend:latest
     ports:
